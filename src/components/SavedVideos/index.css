@@ -1,0 +1,12 @@
+.saved-videos-container {
+  display: flex;
+}
+.saved-videos {
+  margin: 0;
+  padding: 15px;
+}
+@media (max-width: 575px) {
+  .saved-videos {
+    padding: 0;
+  }
+}

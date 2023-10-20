@@ -1,0 +1,33 @@
+.gaming-video-item {
+  list-style-type: none;
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+.gaming-img {
+  width: 100%;
+}
+.game-name {
+  color: #1e293b;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.game-watching {
+  color: #475569;
+  font-size: 13px;
+  margin-top: 0px;
+}
+@media (max-width: 575px) {
+  .gaming-video-item {
+    width: 40%;
+  }
+  .game-name {
+    font-size: 12px;
+  }
+  .game-watching {
+    font-size: 10px;
+  }
+}
+.dark-text {
+  color: white;
+}

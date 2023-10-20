@@ -1,0 +1,63 @@
+.title-name {
+  color: #1e293b;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.like-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+.like-text {
+  color: #475569;
+  font-size: 14px;
+}
+.like-icon {
+  color: #475569;
+  margin-right: 5px;
+}
+.unlike-icon {
+  color: #475569;
+  margin-right: 5px;
+}
+.save-icon {
+  color: #475569;
+  margin-right: 5px;
+}
+@media (max-width: 575px) {
+  .title-name {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+}
+.like-dislike-save-container {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.views-like-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 0px;
+}
+
+.channel-name-light {
+  color: #1e293b;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dark-theme-text {
+  color: white;
+}
+.liked-icons {
+  color: #3b82f6;
+}

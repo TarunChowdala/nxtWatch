@@ -1,0 +1,36 @@
+.trending-list-item {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+.trending-thumbnail-img {
+  width: 50%;
+  margin-right: 15px;
+}
+@media (max-width: 575px) {
+  .trending-list-item {
+    flex-direction: column;
+  }
+  .trending-thumbnail-img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+.trending-video-title {
+  font-size: 20px;
+  margin-top: 0px;
+  color: #1e293b;
+}
+.trending-channel-name {
+  font-size: 15px;
+  color: #475569;
+}
+@media (max-width: 767px) {
+  .trending-video-title {
+    font-size: 15px;
+  }
+  .trending-channel-name {
+    font-size: 12px;
+  }
+}

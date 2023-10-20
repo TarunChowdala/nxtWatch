@@ -1,0 +1,26 @@
+.not-found-img {
+  width: 40%;
+}
+.not-found-heading {
+  color: #1e293b;
+  font-size: 25px;
+}
+.not-found-para {
+  color: #475569;
+  font-size: 15px;
+}
+.not-found-container {
+  background-color: #f9f9f9;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container-dark {
+  background-color: black;
+}
+.bg-text-dark {
+  color: white;
+}

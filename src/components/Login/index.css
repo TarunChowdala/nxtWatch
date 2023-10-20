@@ -1,0 +1,71 @@
+.app-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 767px) {
+  .form-container {
+    width: 90%;
+  }
+}
+.form {
+  width: 80%;
+}
+.label-text {
+  color: #475569;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  border: solid 1px #94a3b8;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.input-password {
+  width: 100%;
+  padding: 8px;
+  border: solid 1px #94a3b8;
+  border-radius: 3px;
+}
+.checkbox-label {
+  font-size: 14px;
+  cursor: pointer;
+}
+.checkbox-container {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.login-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 8px;
+  width: 100%;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.link-item {
+  text-decoration: none;
+}
+.error-msg {
+  color: red;
+  font-size: 10px;
+}

@@ -1,0 +1,204 @@
+.home-container {
+  display: flex;
+}
+.home-container-dark {
+  background-color: black;
+  display: flex;
+}
+.remove-banner {
+  display: none;
+}
+.category-container {
+  max-width: 230px;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  background-color: white;
+}
+.videos-container {
+  width: 100%;
+}
+
+.para-text {
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+  width: 170px;
+}
+.para-dark {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  width: 170px;
+}
+.popup-image-container {
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  height: 30vh;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.popup-description {
+  color: #1e293b;
+  width: 85%;
+}
+.website-logo {
+  width: 120px;
+}
+.remove-icon {
+  cursor: pointer;
+}
+.loader-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.videos {
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+.videos-dark {
+  background-color: black;
+  padding: 15px;
+}
+.search-input-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px #475569;
+  height: 25px;
+  background-color: white;
+  padding-left: 5px;
+  border-radius: 2px;
+}
+.search-input {
+  width: 90%;
+  border-style: none;
+  outline: none;
+}
+.search-input-dark {
+  background-color: #0f0f0f;
+  color: white;
+}
+.icon-container {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  border-style: none;
+  border-left-style: solid;
+  border-color: #475569;
+  border-width: 1px;
+  cursor: pointer;
+}
+.get-now-button {
+  background-color: transparent;
+  border: solid 1px black;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+.videos-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .category-component {
+    display: none;
+  }
+  .videos-container {
+    width: 100%;
+  }
+
+  .search-input-container {
+    width: 70%;
+  }
+  .videos-container {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .category-component {
+    display: none;
+  }
+  .videos-container {
+    width: 100%;
+  }
+
+  .search-input-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .videos-container {
+    padding: 0;
+  }
+
+  .popup-image-container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .videos {
+    padding: 0;
+  }
+  .videos-dark {
+    padding: 0;
+  }
+}
+.failure-img {
+  width: 200px;
+}
+.failure-heading {
+  font-size: 22px;
+  color: #1e293b;
+}
+.failure-para {
+  font-size: 15px;
+  color: #475569;
+  text-align: center;
+}
+.retry-button {
+  background-color: #4f46e5;
+  color: white;
+  border-style: none;
+  border-radius: 2px;
+  width: 60px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  height: 70vh;
+}
+@media (max-width: 767px) {
+  .failure-heading {
+    font-size: 20px;
+  }
+  .failure-para {
+    font-size: 13px;
+  }
+}
+.dark-mode-heading {
+  color: white;
+}
